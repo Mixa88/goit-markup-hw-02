@@ -1,0 +1,86 @@
+body {
+  font-family: roboto;
+  color: #2e2f42;
+}
+
+.contacts {
+  color: #434455;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.contacts:hover {
+  color: #404bbf;
+}
+
+.link-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.logo-text {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.nav-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero-section {
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
+  left: 0px;
+  top: 72px;
+}
+
+.hero-title {
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button-hero {
+    font-family: inherit;
+  background-color: #4d5ae5;
+  color: #ffffff;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
