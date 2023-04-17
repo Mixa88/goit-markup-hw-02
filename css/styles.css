@@ -8,7 +8,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 :root {
@@ -27,7 +27,6 @@ body {
 }
 
 .nav-line {
-  
 }
 
 .address {
@@ -49,7 +48,7 @@ body {
 }
 
 .link-logo {
-  font-family: Raleway; sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -64,7 +63,7 @@ body {
 }
 
 .logo-text {
-  font-family: Raleway; sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -97,6 +96,7 @@ body {
   height: 1.5s;
   left: 636px;
   top: 428px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -106,7 +106,6 @@ body {
   background-color: #404bbf;
   color: #ffffff;
 }
-
 
 .nav-item {
   font-family: Roboto;
@@ -150,11 +149,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-
-
-
-
 /* Section #1 */
+
+.section-one {
+  color: #2e2f42;
+}
 
 .section-one-title {
   width: 264px;
