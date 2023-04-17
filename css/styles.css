@@ -235,3 +235,20 @@ body {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
+.button-filter {
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #F4F4FD;
+    color: #4d5ae5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: #404BBF;
+  color: #ffffff;
+}
