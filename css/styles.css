@@ -43,7 +43,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 
@@ -78,10 +79,31 @@ body {
   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  width: 169px;
+  height: 1.5s;
+  left: 636px;
+  top: 428px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #404bbf;
   color: #ffffff;
 }
 
@@ -128,21 +150,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.button-hero {
-  font-family: inherit;
-  background-color: #4d5ae5;
-  color: #ffffff;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-}
 
-.button-hero:hover,
-.button-hero:focus {
-  background-color: #404bbf;
-  color: #ffffff;
-}
+
+
 
 /* Section #1 */
 
